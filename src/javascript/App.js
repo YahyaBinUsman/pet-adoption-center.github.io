@@ -1,7 +1,5 @@
-/* Updated App.js */
 import React from 'react';
-import {  Route, Routes, Link, NavLink } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 import Signup from './Signup';
 import Login from './Login';
 import Home from './Home';
@@ -10,6 +8,7 @@ import Contact from './Contact';
 import Checkout from './Checkout';
 import '../css/body.css';
 import '../css/styles.css';
+
 
 function App() {
   return (
