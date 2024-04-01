@@ -16,7 +16,7 @@ const Home = () => {
           </p>
         </div>
         <div className="home-image-container">
-          <img src="img/dog main.jpg" alt="Pet Adoption" />
+          <img src="/img/dog main.jpg" alt="Pet Adoption" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const Home = () => {
         <div className="card-deck">
           {/* Card 1 */}
           <div className="card">
-            <img src="img/golden.jpg" className="card-img-top" alt="Dog 1" style={{ width: '200px', height: 'auto' }} />
+            <img src="/img/golden.jpg" className="card-img-top" alt="Dog 1" style={{ width: '200px', height: 'auto' }} />
             <div className="card-body">
               <h5 className="card-title">Golden Retriever</h5>
               <p className="card-text">Known for their friendly and gentle nature, Golden Retrievers make excellent family pets.</p>
@@ -53,7 +53,7 @@ const Home = () => {
 
           {/* Card 2 */}
           <div className="card">
-            <img src="img/siber.jpg" className="card-img-top" alt="Dog 2" style={{ width: '200px', height: 'auto' }} />
+            <img src="/img/siber.jpg" className="card-img-top" alt="Dog 2" style={{ width: '200px', height: 'auto' }} />
             <div className="card-body">
               <h5 className="card-title">Siberian Husky</h5>
               <p className="card-text">With striking looks and a friendly demeanor, Siberian Huskies are perfect for active families.</p>
