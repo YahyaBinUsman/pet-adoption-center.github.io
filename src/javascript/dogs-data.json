@@ -3,13 +3,13 @@
             {
                 "id": 1,
                 "name": "German Shepherd",
-                "image": "img/german.jpg",
+                "image": "/img/german.jpg",
                 "description": "The German Shepherd is a highly intelligent and versatile dog breed known for its strength, loyalty, and agility. Originally bred for herding."
             },
             {
                 "id": 2,
                 "name": "Dalmation",
-                "image": "img/dal.jpg",
+                "image": "/img/dal.jpg",
                 "description": "Dalmatians are distinctive dogs known for their unique black or liver spotted coat. Dalmatians are often associated with firehouses ."
             },
             {
