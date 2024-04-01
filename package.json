@@ -1,6 +1,6 @@
 {
   "name": "adopt",
-  "homepage": "https://yahyabinusman.github.io/pet-adoption-center.github.io",
+  "homepage": "pet-adoption-center.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
