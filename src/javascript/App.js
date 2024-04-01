@@ -12,7 +12,7 @@ import '../css/styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pet-adoption-center.github.io">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
