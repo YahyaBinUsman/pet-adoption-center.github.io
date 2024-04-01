@@ -37,7 +37,7 @@ function App() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/" className="nav-link custom-btn" end>
+                <NavLink to="/https://yahyabinusman.github.io/pet-adoption-center.github.io/" className="nav-link custom-btn" end>
                   <i className="fas fa-home mr-1"></i>Home
                 </NavLink>
               </li>
@@ -60,7 +60,7 @@ function App() {
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/https://yahyabinusman.github.io/pet-adoption-center.github.io/" element={<Home />} />
           <Route path="/dogs" element={<Dogs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/checkout/:dogId" element={<Checkout />} />
