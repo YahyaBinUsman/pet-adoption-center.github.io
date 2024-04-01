@@ -1,0 +1,39 @@
+
+        [
+            {
+                "id": 1,
+                "name": "German Shepherd",
+                "image": "/img/german.jpg",
+                "description": "The German Shepherd is a highly intelligent and versatile dog breed known for its strength, loyalty, and agility. Originally bred for herding."
+            },
+            {
+                "id": 2,
+                "name": "Dalmation",
+                "image": "/img/dal.jpg",
+                "description": "Dalmatians are distinctive dogs known for their unique black or liver spotted coat. Dalmatians are often associated with firehouses ."
+            },
+            {
+                "id": 3,
+                "name": "Bulldog",
+                "image": "/img/bulldog.jpg",
+                "description": "Bulldogs are known for their distinctive wrinkled face and muscular build. Despite their tough appearance, they are gentle, friendly."
+            },
+            {
+                "id": 4,
+                "name": "Labrador Retriever",
+                "image": "/img/labro.jpg",
+                "description": "Labrador Retrievers are known for their friendly and outgoing nature. They are intelligent, versatile, and often used as guide dogs and in search and rescue operations."
+            },
+            {
+                "id": 5,
+                "name": "Siberian Husky",
+                "image": "/img/siber.jpg",
+                "description": "Siberian Huskies are known for their striking appearance and thick double coat. They are energetic, intelligent, and were originally bred as sled dogs. Huskies are social and friendly."
+            },
+            {
+                "id": 6,
+                "name": "Golden Retriever",
+                "image": "img/gold.jpg",
+                "description": "Golden Retrievers are known for their friendly and gentle temperament. They are highly intelligent and often used as therapy dogs. They have a dense, water-repellent coat."
+            }
+        ]

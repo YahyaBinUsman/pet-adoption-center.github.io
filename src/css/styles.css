@@ -1,0 +1,188 @@
+body {
+  background-color: #bcade6; 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #001f3f !important; /* Dark blue background color */
+}
+
+.custom-btn {
+    background-color: #3498db !important; /* Set your desired background color */
+    border: 2px solid #e74c3c !important; /* Set your desired border color */
+    color: #fff !important; /* Set your desired text color */
+  }
+  
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral; /* Light background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .custom-btn {
+    margin-right: 10px; 
+  }
+  .home-content {
+    width: 48%; /* Adjust the width as needed */
+  }
+  
+  .home-content h2 {
+    color: #333; /* Text color */
+  }
+  
+  .home-image-container {
+    width: 48%; /* Adjust the width as needed */
+  }
+  
+  /* Add media query for responsive design */
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+    }
+  
+    .home-content,
+    .home-image-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .receipt {
+    font-size: 15px;
+    text-align: left; /* Align text to the left */
+    border: 2px solid #8b0000; /* Dark red border color */
+    padding: 10px; /* Add padding for spacing inside the box */
+    margin: 10px 0; /* Add margin for spacing between boxes */
+  }
+  
+  .receipt h3 {
+    color: #8b0000; /* Dark red color for heading */
+    margin-bottom: 10px; /* Add margin below heading for spacing */
+  }
+  
+  .receipt-item {
+    margin: 10px 0; /* Add margin for spacing between receipt items */
+  }
+  
+  .receipt strong {
+    color: #8b0000; /* Dark red color for strong text */
+  }
+  
+  .receipt i {
+    font-style: italic; /* Italicize the text */
+    color: #8b0000; /* Dark red color for italic text */
+  }
+  
+  .receipt-actions {
+    margin-top: 20px; /* Add margin above the actions */
+  }
+  
+  /* Add a little extra space between paragraphs */
+  .receipt p {
+    margin-bottom: 0.5em;
+  }
+  .logo-box {
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo-box i {
+    font-size: 24px; /* Adjust the size as needed */
+  }
+  
+  .shot{
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .abcd{
+    text-align: center;
+  }
+  
+  /* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link.active {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Details */
+@media (max-width: 768px) {
+  .receipt, .logo-box, .shot, .abcd {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+      width: 50%; /* Make each nav item take up 50% width */
+      float: left; /* Float the nav items left to stack them */
+      box-sizing: border-box; /* Include padding and border in the width */
+  }
+
+  .navbar-nav .nav-link {
+      width: 100%; /* Make the nav links fill the width of their parent */
+      text-align: center; /* Center align the nav links */
+  }
+}
+
+/* For screens like 768px */
+@media (min-width: 768px) {
+  .navbar-nav .nav-item {
+      width: auto; /* Reset width to auto */
+      float: none; /* Reset float */
+  }
+}
+.receipt {
+  font-size: 15px;
+  text-align: left;
+  border: 2px solid #8b0000;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.receipt h3 {
+  color: #8b0000;
+  margin-bottom: 10px;
+}
+
+.receipt-item {
+  margin-bottom: 5px;
+}
+
+.receipt strong {
+  color: #8b0000;
+}
+
+.receipt i {
+  font-style: italic;
+  color: #8b0000;
+}
+
+.receipt-actions {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .receipt {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
