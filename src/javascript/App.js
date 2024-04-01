@@ -1,3 +1,4 @@
+/* Updated App.js */
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 import Signup from './Signup';
@@ -9,10 +10,9 @@ import Checkout from './Checkout';
 import '../css/body.css';
 import '../css/styles.css';
 
-
 function App() {
   return (
-    <Router basename="/pet-adoption-center.github.io">
+    <Router>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
@@ -37,7 +37,7 @@ function App() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pet-adoption-center.github.io" className="nav-link custom-btn" end>
+                <NavLink to="/" className="nav-link custom-btn" end>
                   <i className="fas fa-home mr-1"></i>Home
                 </NavLink>
               </li>
@@ -60,7 +60,7 @@ function App() {
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/pet-adoption-center.github.io" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/dogs" element={<Dogs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/checkout/:dogId" element={<Checkout />} />

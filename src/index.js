@@ -5,12 +5,9 @@ import App from './javascript/App';
 import reportWebVitals from './reportWebVitals';
 import './css/body.css';
 
+
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+root.render(<React.StrictMode><App /></React.StrictMode>);
 
 reportWebVitals();
