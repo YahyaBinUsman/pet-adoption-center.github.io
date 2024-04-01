@@ -16,7 +16,7 @@ const Home = () => {
           </p>
         </div>
         <div className="home-image-container">
-          <img src="/img/dog main.jpg" alt="Pet Adoption" />
+          <img src="https://yahyabinusman.github.io/img/dog main.jpg" alt="Pet Adoption" />
         </div>
       </div>
 
