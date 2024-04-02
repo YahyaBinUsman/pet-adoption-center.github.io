@@ -1,11 +1,13 @@
 // Home.js
 import React from 'react';
+import goldenImage from '../../public/img/golden.jpg';
+import siberImage from '../../public/img/siber.jpg';
+import dalImage from '../../public/img/dal.jpg';
 
 const Home = () => {
   return (
     <div>
-      <h2><b>Please note that this is just a layout and design and not functional and you will not get and cannot adopt any types of dogs!.
-        </b></h2>
+      <h2><b>Please note that this is just a layout and design and not functional and you will not get and cannot adopt any types of dogs!.</b></h2>
       <div className="home-container">
         <div className="home-content">
           <h2>Welcome to the Pet Adoption Center</h2>
@@ -27,14 +29,13 @@ const Home = () => {
           At Pet Adoption Center, we strive to provide a seamless and joyful adoption experience for both pets and
           adoptive families. Here's why you should choose us:
         </p>
-        </div>
-        <ul>
-          <li>Wide variety of loving pets</li>
-          <li>Experienced and caring staff</li>
-          <li>Transparent adoption process</li>
-          <li>Post-adoption support</li>
-        </ul>
-      
+      </div>
+      <ul>
+        <li>Wide variety of loving pets</li>
+        <li>Experienced and caring staff</li>
+        <li>Transparent adoption process</li>
+        <li>Post-adoption support</li>
+      </ul>
 
       <hr className="mt-5 mb-5" />
       
@@ -44,7 +45,7 @@ const Home = () => {
         <div className="card-deck">
           {/* Card 1 */}
           <div className="card">
-            <img src="/img/golden.jpg" className="card-img-top" alt="Dog 1" style={{ width: '200px', height: 'auto' }} />
+            <img src={goldenImage} className="card-img-top" alt="Dog 1" style={{ width: '200px', height: 'auto' }} />
             <div className="card-body">
               <h5 className="card-title">Golden Retriever</h5>
               <p className="card-text">Known for their friendly and gentle nature, Golden Retrievers make excellent family pets.</p>
@@ -53,7 +54,7 @@ const Home = () => {
 
           {/* Card 2 */}
           <div className="card">
-            <img src="/img/siber.jpg" className="card-img-top" alt="Dog 2" style={{ width: '200px', height: 'auto' }} />
+            <img src={siberImage} className="card-img-top" alt="Dog 2" style={{ width: '200px', height: 'auto' }} />
             <div className="card-body">
               <h5 className="card-title">Siberian Husky</h5>
               <p className="card-text">With striking looks and a friendly demeanor, Siberian Huskies are perfect for active families.</p>
@@ -62,7 +63,7 @@ const Home = () => {
 
           {/* Card 3 */}
           <div className="card">
-            <img src="img/dal.jpg" className="card-img-top" alt="Dog 3" style={{ width: '200px', height: 'auto' }} />
+            <img src={dalImage} className="card-img-top" alt="Dog 3" style={{ width: '200px', height: 'auto' }} />
             <div className="card-body">
               <h5 className="card-title">Dalmatian</h5>
               <p className="card-text">Dalmatians are known for their distinctive spots and energetic personality.</p>
@@ -83,8 +84,8 @@ const Home = () => {
           <p>Phone: +92 302 0499289</p>
         </div>
 
-          {/* Social Media Logos */}
-          <div className="d-flex justify-content-center">
+        {/* Social Media Logos */}
+        <div className="d-flex justify-content-center">
           <div className="logo-box">
             <a href="https://github.com/YahyaBinUsman" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github logo"></i>
@@ -113,4 +114,5 @@ const Home = () => {
     </div>
   );
 };
+
 export default Home;
