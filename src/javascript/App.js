@@ -58,12 +58,12 @@ function App() {
 
       <div className="container mt-4">
         <Routes>
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/pet-adoption-center.github.io/signup" element={<Signup />} />
+          <Route path="/pet-adoption-center.github.io/login" element={<Login />} />
           <Route path="/pet-adoption-center.github.io/" element={<Home />} />
-          <Route path="/dogs" element={<Dogs />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/checkout/:dogId" element={<Checkout />} />
+          <Route path="/pet-adoption-center.github.io/dogs" element={<Dogs />} />
+          <Route path="/pet-adoption-center.github.io/contact" element={<Contact />} />
+          <Route path="/pet-adoption-center.github.io/checkout/:dogId" element={<Checkout />} />
         </Routes>
       </div>
     </Router>
