@@ -15,7 +15,7 @@
             {
                 "id": 3,
                 "name": "Bulldog",
-                "image": "/img/bulldog.jpg",
+                "image": "src/images/bulldog.jpg",
                 "description": "Bulldogs are known for their distinctive wrinkled face and muscular build. Despite their tough appearance, they are gentle, friendly."
             },
             {
