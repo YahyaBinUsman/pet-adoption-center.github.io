@@ -32,7 +32,7 @@ function App() {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/login" className="nav-link custom-btn">
+                <NavLink to="/pet-adoption-center.github.io/login" className="nav-link custom-btn">
                   <i className="fas fa-sign-in-alt mr-1"></i>Login
                 </NavLink>
               </li>
@@ -42,12 +42,12 @@ function App() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/dogs" className="nav-link custom-btn">
+                <NavLink to="/pet-adoption-center.github.io/dogs" className="nav-link custom-btn">
                   <i className="fas fa-dog mr-1"></i>Dogs
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/contact" className="nav-link custom-btn">
+                <NavLink to="/pet-adoption-center.github.io/contact" className="nav-link custom-btn">
                   <i className="fas fa-phone mr-1"></i>Contact
                 </NavLink>
               </li>
