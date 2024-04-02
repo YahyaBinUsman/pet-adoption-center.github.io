@@ -1,9 +1,5 @@
 // Home.js
 import React from 'react';
-import goldenImage from '../images/golden.jpg';
-import siberImage from '../images/siber.jpg';
-import dalImage from '../images/dal.jpg';
-import mainImage from '../images/dog main.jpg';
 
 const Home = () => {
   return (
@@ -19,7 +15,7 @@ const Home = () => {
           </p>
         </div>
         <div className="home-image-container">
-          <img src={mainImage} alt="Pet Adoption" />
+          <img src="img/dog main.jpg" alt="Pet Adoption" />
         </div>
       </div>
 
