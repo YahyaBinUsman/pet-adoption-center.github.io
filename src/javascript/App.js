@@ -1,6 +1,5 @@
-/* Updated App.js */
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 import Signup from './Signup';
 import Login from './Login';
 import Home from './Home';
@@ -32,22 +31,22 @@ function App() {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/pet-adoption-center.github.io/login" className="nav-link custom-btn">
+                <NavLink to="/login" className="nav-link custom-btn">
                   <i className="fas fa-sign-in-alt mr-1"></i>Login
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pet-adoption-center.github.io/" className="nav-link custom-btn" end>
+                <NavLink to="/" className="nav-link custom-btn" end>
                   <i className="fas fa-home mr-1"></i>Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pet-adoption-center.github.io/dogs" className="nav-link custom-btn">
+                <NavLink to="/dogs" className="nav-link custom-btn">
                   <i className="fas fa-dog mr-1"></i>Dogs
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pet-adoption-center.github.io/contact" className="nav-link custom-btn">
+                <NavLink to="/contact" className="nav-link custom-btn">
                   <i className="fas fa-phone mr-1"></i>Contact
                 </NavLink>
               </li>
@@ -58,12 +57,12 @@ function App() {
 
       <div className="container mt-4">
         <Routes>
-          <Route path="/pet-adoption-center.github.io/signup" element={<Signup />} />
-          <Route path="/pet-adoption-center.github.io/login" element={<Login />} />
-          <Route path="/pet-adoption-center.github.io/" element={<Home />} />
-          <Route path="/pet-adoption-center.github.io/dogs" element={<Dogs />} />
-          <Route path="/pet-adoption-center.github.io/contact" element={<Contact />} />
-          <Route path="/pet-adoption-center.github.io/checkout/:dogId" element={<Checkout />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/dogs" element={<Dogs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/checkout/:dogId" element={<Checkout />} />
         </Routes>
       </div>
     </Router>
