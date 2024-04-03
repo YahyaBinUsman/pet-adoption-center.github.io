@@ -168,7 +168,7 @@ const Checkout = () => {
               </div>
             </div>
             <div className="receipt-actions">
-              <Link to="/pet-adoption-center.github.io/dogs" className="btn btn-secondary">
+              <Link to="/dogs" className="btn btn-secondary">
                 Back to Dogs
               </Link>
               <button onClick={handleEdit} className="btn btn-info ml-2">

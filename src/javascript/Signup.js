@@ -18,7 +18,7 @@ const Signup = () => {
     // Your form submission logic goes here
 
     // Example: Navigate to the home page after successful signup
-    navigate('/pet-adoption-center.github.io/');
+    navigate('/');
   };
 
   return (
