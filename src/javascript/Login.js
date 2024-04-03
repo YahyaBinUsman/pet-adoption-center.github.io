@@ -23,7 +23,7 @@ const Login = () => {
     const user = { username: 'JohnDoe' };
 
     if (user) {
-      navigate('/', { state: { username: user.username } });
+      navigate('/pet-adoption-center.github.io/', { state: { username: user.username } });
     } else {
       setError('Invalid credentials. Please try again.');
     }
@@ -74,7 +74,7 @@ const Login = () => {
           <button type="submit" className="form-button">Login</button>
         </form>
         <div className="signup-link">
-          Don't have an account? <Link to="/signup" className="signup-text">Sign Up</Link>
+          Don't have an account? <Link to="/pet-adoption-center.github.io/signup" className="signup-text">Sign Up</Link>
         </div>
       </div>
     </div>

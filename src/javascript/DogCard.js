@@ -36,7 +36,7 @@ const DogCard = ({ dog }) => {
       <div className="card-body">
         <h5 className="card-title">{dog.name}</h5>
         <p className="card-text">{dog.description}</p>
-        <Link to={`/checkout/${dog.id}`} className="btn btn-primary">
+        <Link to={`/pet-adoption-center.github.io/checkout/${dog.id}`} className="btn btn-primary">
           Adopt Me
         </Link>
       </div>
