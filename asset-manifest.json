@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-adoption-center.github.io/static/css/main.a5aa486f.css",
-    "main.js": "/pet-adoption-center.github.io/static/js/main.7226896c.js",
+    "main.js": "/pet-adoption-center.github.io/static/js/main.54a204e0.js",
     "static/js/787.de1fdb51.chunk.js": "/pet-adoption-center.github.io/static/js/787.de1fdb51.chunk.js",
     "static/media/dal.jpg": "/pet-adoption-center.github.io/static/media/dal.695f88d04227806f9f50.jpg",
     "static/media/golden.jpg": "/pet-adoption-center.github.io/static/media/golden.5ec2e0607d55eeda30d5.jpg",
@@ -12,11 +12,11 @@
     "static/media/german.jpg": "/pet-adoption-center.github.io/static/media/german.c223e12cef3c2ead4e2d.jpg",
     "index.html": "/pet-adoption-center.github.io/index.html",
     "main.a5aa486f.css.map": "/pet-adoption-center.github.io/static/css/main.a5aa486f.css.map",
-    "main.7226896c.js.map": "/pet-adoption-center.github.io/static/js/main.7226896c.js.map",
+    "main.54a204e0.js.map": "/pet-adoption-center.github.io/static/js/main.54a204e0.js.map",
     "787.de1fdb51.chunk.js.map": "/pet-adoption-center.github.io/static/js/787.de1fdb51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5aa486f.css",
-    "static/js/main.7226896c.js"
+    "static/js/main.54a204e0.js"
   ]
 }
