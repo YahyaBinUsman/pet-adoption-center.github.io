@@ -106,7 +106,7 @@ const Home = () => {
           </div>
 
           <div className="logo-box">
-            <a href="www.linkedin.com/in/yahya-bin-usman-9a4b39290" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/yahya-bin-usman-9a4b39290/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin-in logo"></i>
             </a>
           </div>
